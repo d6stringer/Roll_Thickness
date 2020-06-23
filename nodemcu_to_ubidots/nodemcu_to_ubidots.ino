@@ -1,7 +1,8 @@
+#include "secrets.h"
 #include "Ubidots.h"
-const char* UBIDOTS_TOKEN = "BBFF-4TkMCRDQEvpWBRSsuV0Zc4pV3NDrEi";  // Put here your Ubidots TOKEN
-const char* WIFI_SSID = "BayMaterials48480";      // Put here your Wi-Fi SSID
-const char* WIFI_PASS = "6505660800";      // Put here your Wi-Fi password 
+extern const char* UBIDOTS_TOKEN;
+extern const char* WIFI_SSID;
+extern const char* WIFI_PASS;
 
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
 
